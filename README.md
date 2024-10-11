@@ -6,7 +6,7 @@ month, month, and day of week) plus a command
 1. Install the latest version of python 3, the version needs to be > 3.10
 2. Verify that this version of python is installed with the command `python --version`, if the version being displayed is 2.x.x, then your system's default version in 2 so check `python3 --version` and make sure the version is above 3.10
 3. Extract the zip file to a folder cron-parser
-4. change directory using `cd cron-parser`
+4. change directory to the root of the project using `cd cron-parser` 
 5. Use the script in the following manner `python parser.py <cron_string>` or if your system's default python version is 2, then use `python3 parser.py <cron_string>`
 6. Example: `python parser.py "*/15 0 1,15 * 1-5 /usr/bin/find"`
 
